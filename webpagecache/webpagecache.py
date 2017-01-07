@@ -3,7 +3,7 @@ import requests
 from wire import database
 
 class WebpageCache(object):
-    USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1"
+    USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0"
 
     def __init__(self, cache_filename, wait_before_dl = 0):
         self.db = database.Database(cache_filename)
